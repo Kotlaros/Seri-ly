@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vyhlídková trasa v Jurském parku</title>
+    <link rel="stylesheet" href="styly.css">
+
+
+</head>
+<body>
+    <h1>Vyhlídková trasa v Jurském parku</h1>
+    <p>Na této trase uvidíte tyto dinosaury:</p>
+    <div class="Yunnanosaurus">Yunnanosaurus
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Yunnanosaurus_BW.jpg/270px-Yunnanosaurus_BW.jpg">
+    </div>
+    <div class="Zalmoxes">Zalmoxes
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Zalmoxes_dinosaur.png/240px-Zalmoxes_dinosaur.png">
+      <a href="https://cs.wikipedia.org/wiki/Zalmoxes" target="_blank">Více informací</a>
+    </div>
+    <div class="Abrictosaurus"> Abrictosaurus
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abrictosaurus_dinosaur.png/270px-Abrictosaurus_dinosaur.png">
+    </div>
+    <div class="Barapasaurus"> Barapasaurus
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Barapasaurus_DB.jpg/258px-Barapasaurus_DB.jpg">
+    </div>
+    <div class="Caihong"> Caihong
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Caihong_juji_life_restoration_3.jpg/258px-Caihong_juji_life_restoration_3.jpg">
+    </div>
+    </body>
+</html>
+<style>
+  .dinosaur-card {
+    display: inline-block;
+    width: 25%;
+    margin: 4%;
+    vertical-align: top;
+  }
+
+  .dinosaur-card img {
+    width: 100%;
+    height: auto;
+  }
+</style>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const dinosaurs = document.querySelectorAll("div[class]");
+    dinosaurs.forEach(dino => {
+      dino.classList.add("dinosaur-card");
+    });
+  });
+</script>
+<style>
+  @media (max-width: 600px) {
+    .dinosaur-card {
+      width: 50%;
+      margin: 2% 0;
+    }
+  }
+</style>

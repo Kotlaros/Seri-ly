@@ -1,0 +1,102 @@
+
+      .kontejner-flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .kontejner-flex > div {
+        flex: 1 1 200px;
+        margin: 10px;
+        text-align: center;
+      }
+      .Zalmoxes {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .Zalmoxes > div {
+        flex: 1 1 200px;
+        margin: 10px;
+        text-align: center;
+      }
+      .Abrictosaurus {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .Abrictosaurus > div {
+        flex: 1 1 200px;
+        margin: 10px;
+        text-align: center;
+      }
+      .Barapasaurus {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+      .Barapasaurus > div {
+        flex: 1 1 200px;
+        margin: 10px;
+        text-align: center;
+    }
+        .Caihong {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+          }
+          .Caihong > div {
+            flex: 1 1 200px;
+            margin: 10px;
+            text-align: center;
+          }
+.Yunnanosaurus {
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(19, 112, 7);
+    border-radius: 3px;
+    text-align: left;
+    margin: 5px;
+}
+.Zalmoxes {
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(19, 112, 7);
+    border-radius: 3px;
+    text-align: left;
+    margin: 5px;
+}
+.Abrictosaurus {
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(19, 112, 7);
+    border-radius: 3px;
+    text-align: left;
+    margin: 5px;
+}
+.Barapasaurus {
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(19, 112, 7);
+    border-radius: 3px;
+    text-align: left;
+    margin: 5px;
+}
+.Caihong {
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(19, 112, 7);
+    border-radius: 3px;
+    text-align: left;
+    margin: 5px;
+}
+
